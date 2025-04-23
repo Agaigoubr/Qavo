@@ -2,6 +2,9 @@ import React from 'react'
 
 export default function test() {
   return (
+
+
+
     <div className="bg-neutral-100 py-24">
   <div className="max-w-[1512px] mx-auto px-10">
     <div className="grid grid-cols-3 gap-8">
@@ -27,7 +30,7 @@ export default function test() {
 </button>
 <button className='absolute bg-white rounded-[40px]  left-[100px] w-[74px] h-[74px]'>
 
-                <img className="w-[42.43px] h-[42.43px] -rotate-45" alt="Next" src="/frame-3.svg" />
+                <img className="w-[42.43px] h-[42.43px] -rotate-45" alt="Next" src="/prodact/iconb.svg" />
               </button>
             </div>
           </div>
@@ -45,7 +48,7 @@ export default function test() {
               </div>
               <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 text-primary-foreground shadow hover:bg-primary/90 w-[70px] h-[69px] rounded-full bg-[#ffffff42] backdrop-blur-[17px] p-0">
                 <div className="w-[55px] h-14 bg-white rounded-full border-[0.5px] border-[#dcdcdc] flex items-center justify-center">
-                  <img className="w-9 h-9" alt="Cart" src="/frame-6.svg" />
+                  <img className="w-9 h-9" alt="Cart" src="/prodact/shop.svg" />
                 </div>
               </button>
             </div>
@@ -77,7 +80,7 @@ export default function test() {
 </button>
 <button className='absolute bg-white rounded-[40px]  left-[100px] w-[74px] h-[74px]'>
 
-                <img className="w-[42.43px] h-[42.43px] -rotate-45" alt="Next" src="/frame-3.svg" />
+                <img className="w-[42.43px] h-[42.43px] -rotate-45" alt="Next" src="/prodact/iconb.svg" />
               </button>
             </div>
 
@@ -98,7 +101,7 @@ export default function test() {
               </div>
               <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 text-primary-foreground shadow hover:bg-primary/90 w-[70px] h-[69px] rounded-full bg-[#ffffff42] backdrop-blur-[17px] p-0">
                 <div className="w-[55px] h-14 bg-white rounded-full border-[0.5px] border-[#dcdcdc] flex items-center justify-center">
-                  <img className="w-9 h-9" alt="Cart" src="/frame-6.svg" />
+                  <img className="w-9 h-9" alt="Cart" src="/prodact/shop.svg" />
                 </div>
               </button>
             </div>
@@ -156,7 +159,7 @@ export default function test() {
               </div>
               <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 text-primary-foreground shadow hover:bg-primary/90 w-[70px] h-[69px] rounded-full bg-[#ffffff42] backdrop-blur-[17px] p-0">
                 <div className="w-[55px] h-14 bg-white rounded-full border-[0.5px] border-[#dcdcdc] flex items-center justify-center">
-                  <img className="w-9 h-9" alt="Cart" src="/frame-6.svg" />
+                  <img className="w-9 h-9" alt="Cart" src="/prodact/shop.svg" />
                 </div>
               </button>
             </div>
@@ -167,5 +170,7 @@ export default function test() {
     </div>
   </div>
 </div>
+
+
   )
 }
