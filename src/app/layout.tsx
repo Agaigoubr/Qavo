@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 //import Navber from "@/components/Navber/page";
-import Footer from "@/components/Footer/page";
+//import Footer from "@/components/Footer/page";
 import Test from "@/components/Testnavber/page";
+import Nav from "@/componentsmobile/com/Nav/page";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,10 +31,19 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-             <Test />
 
+
+<div className="md:hidden block ">
+  <Nav />
+</div>
+<div className='md:block hidden'>
+<Test  />
+</div>
         {children}
-<Footer />
+ <div className='md:block hidden'>
+
+
+</div>
         
       </body>
     </html>

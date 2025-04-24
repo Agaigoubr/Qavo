@@ -4,13 +4,30 @@ import Home from "@/app/home/page";
 import Prodact from "@/components/Prodact/page";
 import Viduo from "@/components/Viduo/page";
 import Phot from "@/components/Phot/page";
+import Homem from "@/componentsmobile/Homem/page";
 
 
 export default function test() {
   return (
     
+
+
+
+
+
+
+
+
+
 <main>
-  <Home />
+
+<div className='md:hidden block'>
+<Homem />
+</div> 
+
+
+<div className='md:block hidden'>
+<Home />
 
   <h1 className="w-[222px] h-[36px] ml-[600px] font-medium text-[20px] leading-[36px] text-black">
   Offers Right Now
@@ -22,6 +39,8 @@ export default function test() {
 <Viduo />
 
 <Phot />
+
+</div>
 </main>
 
 

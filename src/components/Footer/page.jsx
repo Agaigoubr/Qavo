@@ -54,7 +54,7 @@ export default function Footre() {
   <button className='absolute bg-white left-[350px] top-[500px] rounded-[40px]  w-[74px] h-[74px]' >
     <img
     className='ml-5'
-    src="footer/icona.svg" alt="icona" />
+    src="/footer/icona.svg" alt="icona" />
 
   </button>
 
