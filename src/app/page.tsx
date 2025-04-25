@@ -5,7 +5,10 @@ import Prodact from "@/components/Prodact/page";
 import Viduo from "@/components/Viduo/page";
 import Phot from "@/components/Phot/page";
 import Homem from "@/componentsmobile/Homem/page";
-
+import Prodact2 from "@/components/Prodact2/page";
+import Phot2 from "@/components/Phot2/page";
+import Prodact3 from "@/components/Prodact3/page";
+import Phot3 from "@/components/Phot3/page";
 
 export default function test() {
   return (
@@ -39,7 +42,10 @@ export default function test() {
 <Viduo />
 
 <Phot />
-
+<Prodact2 />
+<Phot2 />
+<Prodact3/>
+<Phot3 />
 </div>
 </main>
 

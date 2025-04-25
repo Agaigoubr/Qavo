@@ -15,7 +15,7 @@ export default function Home() {
 className='p-3.5 w-full h-full'
 src="/home/back.png" alt="back" />
 
-<h1 className='absolute text-white  text-[57px] left-[150px] top-[280px]'> 
+<h1 className='absolute text-white text-[57px] left-[150px] top-[280px]'> 
   {text1}
   <br />
   {text2}

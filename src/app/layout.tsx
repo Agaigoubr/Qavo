@@ -5,6 +5,7 @@ import "./globals.css";
 //import Footer from "@/components/Footer/page";
 import Test from "@/components/Testnavber/page";
 import Nav from "@/componentsmobile/com/Nav/page";
+import Text from "@/components/Text/page";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -40,6 +41,7 @@ export default function RootLayout({
 <Test  />
 </div>
         {children}
+        <Text />
  <div className='md:block hidden'>
 
 
