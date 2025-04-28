@@ -1,34 +1,22 @@
 import React from 'react'
-import Image from 'next/image'
 
-export default function Nav() {
+export default function page() {
   return (
+    <div className="flex items-center gap-2  mt-[10px] left-[25px]">
+  <div className="inline-flex items-center border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent shadow hover:bg-primary/80 bg-[#2f2f2f] text-[#dcdcdc] rounded-full px-[15px] py-2">
+    <span className="font-medium text-sm">Hoodies</span>
+  </div>
+  <div className="inline-flex items-center border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 bg-transparent text-[#2e2e2e] rounded-full px-[15px] py-2 border-[#dddddd]">
+    <span className="font-medium text-sm">T-Shirts</span>
+  </div>
+  <div className="inline-flex items-center border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 bg-transparent text-[#2e2e2e] rounded-full px-[15px] py-2 border-[#dddddd]">
+    <span className="font-medium text-sm">Parfums</span>
+  </div>
+  <div className="flex gap-3 ml-6">
+    <img className="w-[26px] h-[26px]" alt="shop" src="navber/shop.svg" />
+    <img className="w-[26px] h-[26px]" alt="muane" src="navber/meun.svg" />
+  </div>
+</div>
 
-
-
-    <div className='ml-[280px] mt-[10px] flex items-center gap-[10px]'>
-      <Image
-        src="/navber/shop.svg"
-        alt="shop"
-        width={25}  
-        height={25} 
-        className='object-contain mt-3'
-      />
-      <img
-        src="/navber/meun.svg"
-        alt="menu"
-    
-        width={"25px"}  
-        height={"25px"} 
-        className='object-contain mt-3'
-      />
-
-
-
-      
-
-
-
-    </div>
   )
 }

@@ -26,7 +26,7 @@ export default function Prodact2() {
     
     
     <button className='absolute bg-white rounded-[40px] w-[74px] h-[74px]'>
-                    <img className="w-[42.43px] h-[42.43px] rotate-[135deg]" alt="Previous" src="/prodact/icond.svg" />
+                    <img className="w-[42.43px] h-[42.43px] " alt="Previous" src="/prodact/icond.svg" />
     </button>
     <button className='absolute bg-white rounded-[40px]  left-[100px] w-[74px] h-[74px]'>
     
@@ -75,7 +75,7 @@ export default function Prodact2() {
     
     
     <button className='absolute bg-white rounded-[40px] w-[74px] h-[74px]'>
-                    <img className="w-[42.43px] h-[42.43px] rotate-[135deg]" alt="Previous" src="/prodact/icond.svg" />
+                    <img className="w-[42.43px] h-[42.43px] " alt="Previous" src="/prodact/icond.svg" />
     </button>
     <button className='absolute bg-white rounded-[40px]  left-[100px] w-[74px] h-[74px]'>
     
@@ -128,7 +128,7 @@ export default function Prodact2() {
     
     
     <button className='absolute bg-white rounded-[40px] w-[74px] h-[74px]'>
-                    <img className="w-[42.43px] h-[42.43px] rotate-[135deg]" alt="Previous" src="/prodact2/yamin.svg" />
+                    <img className="w-[42.43px] h-[42.43px] " alt="Previous" src="/prodact2/yamin.svg" />
     </button>
     <button className='absolute bg-white rounded-[40px]  left-[100px] w-[74px] h-[74px]'>
     

@@ -19,8 +19,8 @@ export default function Footre() {
   return (
 <div className="relative">
   <img 
-    src="/footer/back.svg" 
-    alt="background" 
+    src="hoodies/footer/back.svg" 
+    alt="back" 
     className=" object-cover p-1.5 " 
   />
 

@@ -3,9 +3,9 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 //import Navber from "@/components/Navber/page";
 //import Footer from "@/components/Footer/page";
-import Test from "@/components/Testnavber/page";
+//import Test from "@/components/Testnavber/page";
 import Nav from "@/componentsmobile/com/Nav/page";
-import Text from "@/components/Text/page";
+//import Text from "@/components/Text/page";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -38,10 +38,9 @@ export default function RootLayout({
   <Nav />
 </div>
 <div className='md:block hidden'>
-<Test  />
+
 </div>
         {children}
-        <Text />
  <div className='md:block hidden'>
 
 

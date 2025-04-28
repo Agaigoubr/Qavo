@@ -3,7 +3,7 @@ import React from 'react'
 export default function test() {
   return (
 
-
+    
 
     <div className="bg-neutral-100 py-24">
   <div className="max-w-[1512px] mx-auto px-10">
@@ -26,7 +26,7 @@ export default function test() {
 
 
 <button className='absolute bg-white rounded-[40px] w-[74px] h-[74px]'>
-                <img className="w-[42.43px] h-[42.43px] rotate-[135deg]" alt="Previous" src="/prodact/icond.svg" />
+                <img className="w-[42.43px] h-[42.43px] " alt="Previous" src="/prodact/icond.svg" />
 </button>
 <button className='absolute bg-white rounded-[40px]  left-[100px] w-[74px] h-[74px]'>
 
@@ -76,7 +76,7 @@ export default function test() {
 
 
 <button className='absolute bg-white rounded-[40px] w-[74px] h-[74px]'>
-                <img className="w-[42.43px] h-[42.43px] rotate-[135deg]" alt="Previous" src="/prodact/icond.svg" />
+                <img className="w-[42.43px] h-[42.43px] " alt="Previous" src="/prodact/icond.svg" />
 </button>
 <button className='absolute bg-white rounded-[40px]  left-[100px] w-[74px] h-[74px]'>
 
@@ -129,7 +129,7 @@ export default function test() {
 
 
 <button className='absolute bg-white rounded-[40px] w-[74px] h-[74px]'>
-                <img className="w-[42.43px] h-[42.43px] rotate-[135deg]" alt="Previous" src="/prodact/icond.svg" />
+                <img className="w-[42.43px] h-[42.43px] " alt="Previous" src="/prodact/icond.svg" />
 </button>
 <button className='absolute bg-white rounded-[40px]  left-[100px] w-[74px] h-[74px]'>
 

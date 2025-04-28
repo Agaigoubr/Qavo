@@ -9,7 +9,10 @@ import Prodact2 from "@/components/Prodact2/page";
 import Phot2 from "@/components/Phot2/page";
 import Prodact3 from "@/components/Prodact3/page";
 import Phot3 from "@/components/Phot3/page";
-
+import Footer from "@/components/Footer/page";
+import Text from '@/components/Text/page';
+import Testnavber from "@/components/Testnavber/page";
+import Prodactm from '@/componentsmobile/Prodactm/page';
 export default function test() {
   return (
     
@@ -25,11 +28,18 @@ export default function test() {
 <main>
 
 <div className='md:hidden block'>
+
 <Homem />
+<Prodactm />
 </div> 
 
 
+
+
+
+
 <div className='md:block hidden'>
+<Testnavber/>
 <Home />
 
   <h1 className="w-[222px] h-[36px] ml-[600px] font-medium text-[20px] leading-[36px] text-black">
@@ -46,6 +56,10 @@ export default function test() {
 <Phot2 />
 <Prodact3/>
 <Phot3 />
+<Text />
+<div className='mt-[100px]'>
+<Footer/>
+</div>
 </div>
 </main>
 
