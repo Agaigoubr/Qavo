@@ -61,7 +61,7 @@ export default function Navber() {
   <button className="p-1 mt-4 ">
     <img 
       className="w-[35px] h-[35px]" 
-      src="/navber/shop.svg" 
+      src="shop.svg" 
       alt="Shopping cart" 
     />
   </button>
@@ -70,7 +70,7 @@ export default function Navber() {
   <button className="p-1 mt-4  ">
     <img
       className="w-[35px] h-[35px]"
-      src="/navber/meun.svg"
+     src="menu.svg"
       alt="Menu"
     />
   </button>

@@ -13,6 +13,9 @@ import Footer from "@/components/Footer/page";
 import Text from '@/components/Text/page';
 import Testnavber from "@/components/Testnavber/page";
 import Prodactm from '@/componentsmobile/Prodactm/page';
+import Viduom from "@/componentsmobile/Viduom/page";
+import Photm from  "@/componentsmobile/Photm/page";
+
 export default function test() {
   return (
     
@@ -31,6 +34,9 @@ export default function test() {
 
 <Homem />
 <Prodactm />
+<Viduom />
+<Photm />
+
 </div> 
 
 

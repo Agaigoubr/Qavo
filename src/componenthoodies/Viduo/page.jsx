@@ -26,10 +26,30 @@ export default function Viduo() {
 
 
 <div className="relative">
+
     
 <img 
-className='absolute ml-[580px] top-[200px]'
+className='absolute   ml-[580px] top-[300px]'
 src="/viduo/play.svg" alt="play" />
+
+<div className="flex items-center justify-center relative top-[550px] h-[74px] w-full">
+  <div className="absolute translate-x-[-40px] bg-white rounded-full w-[74px] h-[74px]">
+    <img 
+    className=' ml-3 mt-3.5 '
+    src="/s.svg" alt="s" />
+  </div>
+
+
+  <div className="absolute translate-x-[40px] bg-white rounded-full w-[74px] h-[74px]">
+
+    <img 
+    className=' ml-3 mt-3.5 '
+    src="m.svg" alt="m" />
+  </div>
+</div>
+
+
+
 
 
 <img 

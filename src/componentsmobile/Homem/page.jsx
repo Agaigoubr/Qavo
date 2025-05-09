@@ -16,7 +16,6 @@ return (
     <img 
     className='ml-5'
     src="/home/mobile/iconc.svg" alt="start" />
-
 </button>
 
 <button className='absolute text-[#2E2E2E] text-[17px] bg-white w-[253px] h-[65px] rounded-[40px] ml-[20px] mt-[580px] '> 
@@ -72,6 +71,9 @@ width={'410px'}
 height={"782px"}
 className='rounded-[40px] mt-[20px] p-2'
 />
+
+
+
 
 
 

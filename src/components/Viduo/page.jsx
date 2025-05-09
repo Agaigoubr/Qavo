@@ -32,9 +32,39 @@ className='absolute ml-[580px] top-[200px]'
 src="/viduo/play.svg" alt="play" />
 
 
+
+
+
+
+<div className=" absolute flex items-center justify-center  mt-[450px]  h-[74px] w-full">
+  <div className="absolute translate-x-[-40px] bg-white rounded-full w-[74px] h-[74px]">
+    <img 
+    className=' ml-3 mt-3.5 '
+    src="/s.svg" alt="s" />
+  </div>
+
+
+  <div className="absolute translate-x-[40px] bg-white rounded-full w-[74px] h-[74px]">
+
+    <img 
+    className=' ml-3 mt-3.5 '
+    src="m.svg" alt="m" />
+  </div>
+</div>
+
+
+
+
+
 <img 
 className='p-2 mt-[40px] w-[1434px] h-[598] rounded-[40px]'
 src="/viduo/viduo.png" alt="vido" />
+
+
+
+
+
+
 
 
 </div>

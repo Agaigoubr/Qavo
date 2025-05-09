@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 export default function page() {
   return (
 
@@ -45,7 +46,7 @@ export default function page() {
     <img 
       className="w-[35px] h-[35px]" 
       alt="shop" 
-      src="/navber/shop.svg" 
+      src="/shop.svg" 
     />
 </Link>
 <Link href={"/"}>
@@ -53,7 +54,7 @@ export default function page() {
     <img 
       className="w-[35px] h-[35px]" 
       alt="maeun" 
-     src="/navber/meun.svg"
+     src="/meun.svg"
     />
     </Link>
   </div>
