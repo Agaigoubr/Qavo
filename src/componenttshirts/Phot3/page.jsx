@@ -8,7 +8,7 @@ const text2 = "The Art Of Streetwear.";
 const nbr = "134.00 Dhs";
 const nbr1 = "199.00 Dhs";
 
-export default function Phot() {
+export default function Phot3() {
   const containerRef = useRef(null);
   const { scrollYProgress } = useScroll({
     target: containerRef,
@@ -56,7 +56,7 @@ export default function Phot() {
             transition={{ duration: 0.8 }}
             ref={ref2}
             className='absolute w-[499.06px] h-[640.03px] ml-[150px] mt-[450px]'
-            src="/phot/pro3.png" 
+            src="hoodies/phot3/ph3.png" 
             alt="prodact3" 
           />
 
@@ -66,7 +66,7 @@ export default function Phot() {
             animate={inView2 ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.8, delay: 0.3 }}
             className='absolute ml-[300px] mt-[360px]'
-            src="/phot/pro2.png" 
+            src="hoodies/phot3/ph2.png" 
             alt="prodact2" 
           />
         </div>
@@ -78,14 +78,14 @@ export default function Phot() {
           transition={{ duration: 0.8, delay: 0.6 }}
           ref={ref3}
           className='absolute w-[616px] h-[790px] ml-[600px] mt-[300px]'
-          src="/phot/pro1.png" 
+          src="hoodies/phot3/ph1.png" 
           alt="prodact1" 
         />
 
         <motion.img 
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
-          className='absolute ml-[1130px] mt-[900px] w-[70px] h-[70px]'
+          className='absolute ml-[1130px] mt-[1000px] w-[70px] h-[70px]'
           src="/phot/shop.svg" 
           alt="shop" 
         />
@@ -94,7 +94,7 @@ export default function Phot() {
           initial={{ opacity: 0 }}
           animate={inView3 ? { opacity: 1 } : {}}
           transition={{ duration: 0.8, delay: 0.9 }}
-          className='absolute mt-[900px] text-white text-[32px] ml-[620px]'
+          className='absolute mt-[1000px] text-white text-[32px] ml-[620px]'
         >
           {nbr}
         </motion.h1>
@@ -103,7 +103,7 @@ export default function Phot() {
           initial={{ opacity: 0 }}
           animate={inView3 ? { opacity: 1 } : {}}
           transition={{ duration: 0.8, delay: 1.2 }}
-          className='absolute mt-[880px] text-[#FEFEFE]/40 text-[22px] ml-[620px]'
+          className='absolute mt-[980px] text-[#FEFEFE]/40 text-[22px] ml-[620px]'
         >
           {nbr1}
         </motion.h1>

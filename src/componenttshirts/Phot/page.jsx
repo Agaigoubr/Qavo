@@ -55,8 +55,8 @@ export default function Phot() {
             animate={inView2 ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.8 }}
             ref={ref2}
-            className='absolute w-[499.06px] h-[640.03px] ml-[150px] mt-[450px]'
-            src="/phot/pro3.png" 
+            className='absolute w-[499.06px] h-[640.03px] ml-[450px] mt-[250px]'
+            src="/hoodies/phot/im3.png" 
             alt="prodact3" 
           />
 
@@ -66,7 +66,7 @@ export default function Phot() {
             animate={inView2 ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.8, delay: 0.3 }}
             className='absolute ml-[300px] mt-[360px]'
-            src="/phot/pro2.png" 
+            src="/hoodies/phot/im2.png" 
             alt="prodact2" 
           />
         </div>
@@ -78,7 +78,7 @@ export default function Phot() {
           transition={{ duration: 0.8, delay: 0.6 }}
           ref={ref3}
           className='absolute w-[616px] h-[790px] ml-[600px] mt-[300px]'
-          src="/phot/pro1.png" 
+          src="/hoodies/phot/im1.png" 
           alt="prodact1" 
         />
 
