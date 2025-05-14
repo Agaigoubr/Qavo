@@ -2,6 +2,7 @@
 import React, { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+//import { div } from 'framer-motion';
 
 const text1 = "Super Hoodies";
 const text2 = "The Art Of Streetwear.";
@@ -26,45 +27,25 @@ export default function Phot() {
   const [ref3, inView3] = useInView({ threshold: 0.1, triggerOnce: false });
 
   return (
+    
     <div ref={containerRef} className='bg-[#252525] mt-[40px] w-full h-[200vh]'>
 
-      <motion.h1 
-        initial={{ opacity: 0, y: 50 }}
-        animate={inView1 ? { opacity: 1, y: 0 } : {}}
-        transition={{ duration: 0.8 }}
-        ref={ref1}
-        className='absolute font-PP Neue Montreal ml-[600px] text-[32px] text-[#626262] mt-[50px]'
-      >
-        {text1} 
-      </motion.h1>
-      
-      <motion.h1 
-        initial={{ opacity: 0, y: 50 }}
-        animate={inView1 ? { opacity: 1, y: 0 } : {}}
-        transition={{ duration: 0.8, delay: 0.3 }}
-        className='absolute text-[42px] text-white ml-[500px] mt-[100px]'
-      >
-        {text2} 
-      </motion.h1>
-
-      <div>
-        <div>
-          <motion.img 
-            style={{ y: y1 }}
-            initial={{ opacity: 0, x: -100 }}
-            animate={inView2 ? { opacity: 1, x: 0 } : {}}
-            transition={{ duration: 0.8 }}
-            ref={ref2}
-            className='absolute w-[499.06px] h-[640.03px] ml-[450px] mt-[250px]'
+    <div>
+    <motion.img 
+              initial={{ x: 0, y: -106, rotate: 0  }}
+      animate={{ x: 100, y: 900, rotate: 200 }}
+      transition={{ duration: 1, delay: 12,  ease: "easeInOut" }}
+      ref={ref2}
+            className='absolute w-[499.06px] h-[640.03px] ml-[200px] mt-[420px]'
             src="/hoodies/phot/im3.png" 
             alt="prodact3" 
           />
 
           <motion.img 
-            style={{ y: y2 }}
-            initial={{ opacity: 0, x: -100 }}
-            animate={inView2 ? { opacity: 1, x: 0 } : {}}
-            transition={{ duration: 0.8, delay: 0.3 }}
+              initial={{ x: 0, y: -106, rotate: 0  }}
+      animate={{ x: 100, y: 900, rotate: 200 }}
+      transition={{ duration: 1, delay: 10,  ease: "easeInOut" }}
+      ref={ref2}
             className='absolute ml-[300px] mt-[360px]'
             src="/hoodies/phot/im2.png" 
             alt="prodact2" 
@@ -72,15 +53,17 @@ export default function Phot() {
         </div>
 
         <motion.img 
-          style={{ y: y3 }}
-          initial={{ opacity: 0, x: -100 }}
-          animate={inView3 ? { opacity: 1, x: 0 } : {}}
-          transition={{ duration: 0.8, delay: 0.6 }}
-          ref={ref3}
+             initial={{ x: 0, y: -106, rotate: 0  }}
+      animate={{ x: 100, y: 900, rotate: 200 }}
+      transition={{ duration: 1, delay: 8,  ease: "easeInOut" }}
+      ref={ref2}
           className='absolute w-[616px] h-[790px] ml-[600px] mt-[300px]'
           src="/hoodies/phot/im1.png" 
           alt="prodact1" 
         />
+
+
+
 
         <motion.img 
           whileHover={{ scale: 1.1 }}
@@ -107,7 +90,6 @@ export default function Phot() {
         >
           {nbr1}
         </motion.h1>
-      </div>
-    </div>
+</div> 
   );
 }
