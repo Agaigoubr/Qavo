@@ -4,7 +4,7 @@ export default function Prodact3() {
   return (
     
     <div className="bg-neutral-100 py-24">
-    <div className="max-w-[1512px] mx-auto px-10">
+    <div className="max-w-[1512px] mx-auto overflow-x-auto px-10">
       <div className="grid grid-cols-3 gap-8">
         {/* Product 1 */}
         <div className="rounded-xl border text-card-foreground border-none shadow-none bg-transparent">
@@ -24,11 +24,11 @@ export default function Prodact3() {
   
   
   <button className='absolute bg-white rounded-[40px] w-[74px] h-[74px]'>
-                  <img className="w-[42.43px] h-[42.43px] " alt="Previous" src="/prodact/icond.svg" />
+                  <img className="inline-flex items-center justify-center gap-2 w-[42.43px] h-[42.43px] " alt="Previous" src="/s.svg" />
   </button>
   <button className='absolute bg-white rounded-[40px]  left-[100px] w-[74px] h-[74px]'>
   
-                  <img className="w-[42.43px] h-[42.43px] -rotate-45" alt="Next" src="/prodact/iconb.svg" />
+                  <img className="inline-flex items-center justify-center gap-2 w-[42.43px] h-[42.43px] " alt="Next" src="/m.svg" />
                 </button>
               </div>
             </div>
@@ -73,11 +73,11 @@ export default function Prodact3() {
   
   
   <button className='absolute bg-white rounded-[40px] w-[74px] h-[74px]'>
-                  <img className="w-[42.43px] h-[42.43px] " alt="Previous" src="/prodact/icond.svg" />
+                  <img className="inline-flex items-center justify-center gap-2 w-[42.43px] h-[42.43px] " alt="Previous" src="/s.svg" />
   </button>
   <button className='absolute bg-white rounded-[40px]  left-[100px] w-[74px] h-[74px]'>
   
-                  <img className="w-[42.43px] h-[42.43px] -rotate-45" alt="Next" src="/prodact/iconb.svg" />
+                  <img className="inline-flex items-center justify-center gap-2  w-[42.43px] h-[42.43px] " alt="Next" src="/m.svg" />
                 </button>
               </div>
   
@@ -126,11 +126,11 @@ export default function Prodact3() {
   
   
   <button className='absolute bg-white rounded-[40px] w-[74px] h-[74px]'>
-                  <img className="w-[42.43px] h-[42.43px] " alt="Previous" src="/prodact2/yamin.svg" />
+                  <img className="inline-flex items-center justify-center gap-2 w-[42.43px] h-[42.43px] " alt="Previous" src="/s.svg" />
   </button>
   <button className='absolute bg-white rounded-[40px]  left-[100px] w-[74px] h-[74px]'>
   
-                  <img className="w-[42.43px] h-[42.43px] -rotate-45" alt="Next" src="/prodact2/yanim.svg" />
+                  <img className="inline-flex items-center justify-center gap-2 w-[42.43px] h-[42.43px] " alt="Next" src="/m.svg" />
                 </button>
               </div>
   

@@ -15,9 +15,8 @@ export default function test() {
             <img className="w-full h-full rounded-[40px] object-cover" alt="Product 1" src="/prodact/prodact.png" />
 
             <div className="absolute top-[29px] right-[29px]">
-            <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 text-primary-foreground shadow hover:bg-primary/90 w-[55px] h-[55px] rounded-full bg-white border border-[#dcdcdc] p-0">
-
-                <img className="w-9 h-[35px]" alt="Favorite" src="/prodact/icona.svg" />
+        <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 text-primary-foreground shadow hover:bg-primary/90 w-[55px] h-[55px] rounded-full bg-white border border-[#dcdcdc] p-0">
+                <img className="w-9 h-[35px]" alt="Favorite" src="prodact/icona.svg" />
                </button>
             </div>
 
@@ -26,11 +25,11 @@ export default function test() {
 
 
 <button className='absolute bg-white rounded-[40px] w-[74px] h-[74px]'>
-                <img className="w-[42.43px] h-[42.43px] " alt="Previous" src="/prodact/icond.svg" />
+                <img className="inline-flex items-center justify-center gap-2  w-[42.43px] h-[42.43px]  " alt="Previous" src="/s.svg" />
 </button>
 <button className='absolute bg-white rounded-[40px]  left-[100px] w-[74px] h-[74px]'>
 
-                <img className="w-[42.43px] h-[42.43px] -rotate-45" alt="Next" src="/prodact/iconb.svg" />
+                <img className="inline-flex items-center justify-center gap-2   w-[42.43px] h-[42.43px] " alt="Next" src="/m.svg" />
               </button>
             </div>
           </div>
@@ -76,11 +75,11 @@ export default function test() {
 
 
 <button className='absolute bg-white rounded-[40px] w-[74px] h-[74px]'>
-                <img className="w-[42.43px] h-[42.43px] " alt="Previous" src="/prodact/icond.svg" />
+                <img className=" inline-flex items-center justify-center gap-2 w-[42.43px] h-[42.43px] " alt="Previous" src="/prodact/icond.svg" />
 </button>
 <button className='absolute bg-white rounded-[40px]  left-[100px] w-[74px] h-[74px]'>
 
-                <img className="w-[42.43px] h-[42.43px] -rotate-45" alt="Next" src="/prodact/iconb.svg" />
+                <img className="inline-flex items-center justify-center gap-2 w-[42.43px] h-[42.43px] " alt="Next" src="/prodact/iconb.svg" />
               </button>
             </div>
 
@@ -129,11 +128,11 @@ export default function test() {
 
 
 <button className='absolute bg-white rounded-[40px] w-[74px] h-[74px]'>
-                <img className="w-[42.43px] h-[42.43px] " alt="Previous" src="/prodact/icond.svg" />
+                <img className="inline-flex items-center justify-center gap-2 w-[42.43px] h-[42.43px] " alt="Previous" src="/prodact/icond.svg" />
 </button>
 <button className='absolute bg-white rounded-[40px]  left-[100px] w-[74px] h-[74px]'>
 
-                <img className="w-[42.43px] h-[42.43px] -rotate-45" alt="Next" src="/frame-3.svg" />
+                <img className="inline-flex items-center justify-center gap-2 w-[42.43px] h-[42.43px] " alt="Next" src="/m.svg" />
               </button>
             </div>
 

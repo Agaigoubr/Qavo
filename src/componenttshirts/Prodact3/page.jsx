@@ -24,11 +24,11 @@ export default function Prodact3() {
   
   
   <button className='absolute bg-white rounded-[40px] w-[74px] h-[74px]'>
-                  <img className="w-[42.43px] h-[42.43px] " alt="Previous" src="/prodact/icond.svg" />
+                  <img className="inline-flex items-center justify-center gap-2  w-[42.43px] h-[42.43px] " alt="Previous" src="/s.svg" />
   </button>
   <button className='absolute bg-white rounded-[40px]  left-[100px] w-[74px] h-[74px]'>
   
-                  <img className="w-[42.43px] h-[42.43px] -rotate-45" alt="Next" src="/prodact/iconb.svg" />
+                  <img className="inline-flex items-center justify-center gap-2 w-[42.43px] h-[42.43px] " alt="Next" src="/m.svg" />
                 </button>
               </div>
             </div>
@@ -73,11 +73,11 @@ export default function Prodact3() {
   
   
   <button className='absolute bg-white rounded-[40px] w-[74px] h-[74px]'>
-                  <img className="w-[42.43px] h-[42.43px] " alt="Previous" src="/prodact/icond.svg" />
+                  <img className="inline-flex items-center justify-center gap-2 w-[42.43px] h-[42.43px] " alt="Previous" src="/s.svg" />
   </button>
   <button className='absolute bg-white rounded-[40px]  left-[100px] w-[74px] h-[74px]'>
   
-                  <img className="w-[42.43px] h-[42.43px] -rotate-45" alt="Next" src="/prodact/iconb.svg" />
+                  <img className="inline-flex items-center justify-center gap-2 w-[42.43px] h-[42.43px] " alt="Next" src="/m.svg" />
                 </button>
               </div>
   
@@ -126,11 +126,11 @@ export default function Prodact3() {
   
   
   <button className='absolute bg-white rounded-[40px] w-[74px] h-[74px]'>
-                  <img className="w-[42.43px] h-[42.43px] " alt="Previous" src="/prodact2/yamin.svg" />
+                  <img className="inline-flex items-center justify-center gap-2 w-[42.43px] h-[42.43px] " alt="Previous" src="/s.svg" />
   </button>
   <button className='absolute bg-white rounded-[40px]  left-[100px] w-[74px] h-[74px]'>
   
-                  <img className="w-[42.43px] h-[42.43px] -rotate-45" alt="Next" src="/prodact2/yanim.svg" />
+                  <img className="inline-flex items-center justify-center gap-2 w-[42.43px] h-[42.43px] " alt="Next" src="/m.svg" />
                 </button>
               </div>
   

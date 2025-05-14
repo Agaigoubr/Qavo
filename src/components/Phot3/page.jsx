@@ -85,7 +85,7 @@ export default function Phot3() {
         <motion.img 
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
-          className='absolute ml-[1130px] mt-[1000px] w-[70px] h-[70px]'
+          className='absolute ml-[1130px] mt-[900px] w-[70px] h-[70px]'
           src="/phot/shop.svg" 
           alt="shop" 
         />
@@ -94,7 +94,7 @@ export default function Phot3() {
           initial={{ opacity: 0 }}
           animate={inView3 ? { opacity: 1 } : {}}
           transition={{ duration: 0.8, delay: 0.9 }}
-          className='absolute mt-[1000px] text-white text-[32px] ml-[620px]'
+          className='absolute mt-[900px] text-white text-[32px] ml-[620px]'
         >
           {nbr}
         </motion.h1>
@@ -103,7 +103,7 @@ export default function Phot3() {
           initial={{ opacity: 0 }}
           animate={inView3 ? { opacity: 1 } : {}}
           transition={{ duration: 0.8, delay: 1.2 }}
-          className='absolute mt-[980px] text-[#FEFEFE]/40 text-[22px] ml-[620px]'
+          className='absolute mt-[880px] text-[#FEFEFE]/40 text-[22px] ml-[620px]'
         >
           {nbr1}
         </motion.h1>
