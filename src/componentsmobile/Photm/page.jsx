@@ -1,5 +1,5 @@
-import React from 'react'
-import { text } from 'stream/consumers'
+import React from 'react';
+import { text } from 'stream/consumers';
 
 export default function Photm() {
 

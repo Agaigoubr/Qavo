@@ -18,7 +18,7 @@ export default function Viduo() {
   className=" ml-[500px] top-[100px] font-['PP_Neue_Montreal-Regular'] font-normal text-black text-[42px] leading-[48px]"
 >
   <span className='ml-[100px]'>The Art Of <br />Streetwear</span>
-  <span className="font-['PP_Neue_Montreal-Medium'] font-medium "> QUALITY & <br />
+  <span className="font-bold  "> QUALITY & <br />
   <h1 className='ml-[30px]'>STYLE REDEFINED</h1>
   
   </span>
@@ -26,11 +26,21 @@ export default function Viduo() {
 
 
 <div className="relative">
+  <img 
+className='inline-flex items-center justify-center '
+src="/son.svg" alt="son" />
 
-    
+
+    <button >
+
+
+
 <img 
-className='absolute   ml-[580px] top-[300px]'
+className=' inline-flex items-center justify-center'
 src="/viduo/play.svg" alt="play" />
+
+
+</button>
 
 <div className="flex items-center justify-center relative top-[550px] h-[74px] w-full">
   <div className="absolute translate-x-[-40px] bg-white rounded-full w-[74px] h-[74px]">

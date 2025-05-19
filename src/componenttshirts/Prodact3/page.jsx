@@ -49,7 +49,9 @@ export default function Prodact3() {
                   </div>
                 </button>
               </div>
-              <p className="mt-2 [font-family:'PP_Neue_Montreal-Medium',Helvetica] font-medium text-[#868686] text-[27px] leading-normal">Hoodies Blockout Unique Style & Edition</p>
+                                                  <p className=' absolute ml-[330px] mt-[5px] text-black text-[32px]  '>-43%</p>
+
+              <p className="mt-2 [font-family:'PP_Neue_Montreal-Medium',Helvetica] font-medium text-[#868686] text-[27px] leading-normal">Hoodies Blockout Unique <br /> Style & Edition</p>
             </div>
           </div>
         </div>
@@ -94,7 +96,6 @@ export default function Prodact3() {
                       <div data-orientation="horizontal" role="none" className="shrink-0 bg-border h-[1px] absolute top-3.5 w-full"></div>
                     </div>
                   </div>
-                  <div className="inline-flex items-center rounded-md border transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent shadow hover:bg-primary/80 mt-2 bg-transparent text-black [font-family:'PP_Neue_Montreal-Medium',Helvetica] font-medium text-[32px] p-0">-43%</div>
                 </div>
                 <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 text-primary-foreground shadow hover:bg-primary/90 w-[70px] h-[69px] rounded-full bg-[#ffffff42] backdrop-blur-[17px] p-0">
                   <div className="w-[55px] h-14 bg-white rounded-full border-[0.5px] border-[#dcdcdc] flex items-center justify-center">
@@ -102,7 +103,9 @@ export default function Prodact3() {
                   </div>
                 </button>
               </div>
-              <p className="mt-2 [font-family:'PP_Neue_Montreal-Medium',Helvetica] font-medium text-[#868686] text-[27px] leading-normal">Hoodies Blockout Unique Style & Edition</p>
+                                                  <p className=' absolute ml-[330px] mt-[5px] text-black text-[32px]  '>-43%</p>
+
+              <p className="mt-2 [font-family:'PP_Neue_Montreal-Medium',Helvetica] font-medium text-[#868686] text-[27px] leading-normal">Hoodies Blockout Unique <br /> Style & Edition</p>
             </div>
           </div>
         </div>
@@ -152,7 +155,6 @@ export default function Prodact3() {
                       <div data-orientation="horizontal" role="none" className="shrink-0 bg-border h-[1px] absolute top-3.5 w-full"></div>
                     </div>
                   </div>
-                  <div className="inline-flex items-center rounded-md border transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent shadow hover:bg-primary/80 mt-2 bg-transparent text-black [font-family:'PP_Neue_Montreal-Medium',Helvetica] font-medium text-[32px] p-0">-43%</div>
                 </div>
                 <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 text-primary-foreground shadow hover:bg-primary/90 w-[70px] h-[69px] rounded-full bg-[#ffffff42] backdrop-blur-[17px] p-0">
                   <div className="w-[55px] h-14 bg-white rounded-full border-[0.5px] border-[#dcdcdc] flex items-center justify-center">
@@ -160,7 +162,9 @@ export default function Prodact3() {
                   </div>
                 </button>
               </div>
-              <p className="mt-2 [font-family:'PP_Neue_Montreal-Medium',Helvetica] font-medium text-[#868686] text-[27px] leading-normal">T-Shirt Blockout Unique Style & Edition</p>
+                                                  <p className=' absolute ml-[330px] mt-[5px] text-black text-[32px]  '>-43%</p>
+
+              <p className="mt-2 [font-family:'PP_Neue_Montreal-Medium',Helvetica] font-medium text-[#868686] text-[27px] leading-normal">T-Shirt Blockout Unique <br /> Style & Edition</p>
             </div>
           </div>
         </div>

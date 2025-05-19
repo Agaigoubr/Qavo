@@ -112,12 +112,12 @@ export default function Page() {
           </button>
         </div>
 
-        {/* أيقونات وصور */}
+     
         <img className="absolute ml-[320px] mt-[20px]" src="phone/icona.svg" alt="icona" />
         <img className="mt-[40px] p-1" src="phone/ph3.png" alt="ph3" />
         <img className="absolute mt-1 ml-[340px]" src="phone/shop.svg" alt="shop" />
         
-        {/* النصوص */}
+     
         <h1 className="absolute text-black text-[32px] ml-[330px] mt-[150px]">
           {promo}
         </h1>

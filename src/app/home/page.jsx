@@ -10,7 +10,7 @@ export default function Home() {
   return (
 <div className="relative">
 
-
+ 
 <img 
 className='p-3.5 w-full h-full'
 src="/home/back.png" alt="back" />

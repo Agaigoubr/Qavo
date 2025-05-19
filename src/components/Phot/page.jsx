@@ -54,6 +54,7 @@ export default function Phot() {
             initial={{ opacity: 0, x: -100 }}
             animate={inView2 ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.8 }}
+            
             ref={ref2}
             className='absolute w-[499.06px] h-[640.03px] ml-[150px] mt-[450px]'
             src="/phot/pro3.png" 
@@ -110,4 +111,4 @@ export default function Phot() {
       </div>
     </div>
   );
-}
+}  
