@@ -18,8 +18,8 @@ export default function Viduo() {
   className=" ml-[500px] top-[100px] font-['PP_Neue_Montreal-Regular'] font-normal text-black text-[42px] leading-[48px]"
 >
   <span className='ml-[100px]'>The Art Of <br />Streetwear</span>
-  <span className="font-bold  "> QUALITY & <br />
-  <h1 className='ml-[30px]'>STYLE REDEFINED</h1>
+  <span className="font-bold"> QUALITY & <br />
+  <h1 className='ml-[30px] font-["PP_Neue_Montreal-Regular"]'>STYLE REDEFINED</h1>
   
   </span>
 </h2>
